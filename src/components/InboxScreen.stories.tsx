@@ -15,7 +15,6 @@ export default {
     component: InboxScreen,
     title: 'InboxScreen',
     decorators: [(story) => <Provider store={store}>{story()}</Provider>],
-    tags: ['autodocs'],
 } satisfies Meta<typeof  InboxScreen>;
 
 export const Default = {
